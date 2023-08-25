@@ -1,0 +1,99 @@
+/* is used as comments in css files*/
+
+body{
+    /* In Index2.html you can see , There's a background image added already added. 
+    so this background image is only applicable to the body of the first web page 
+    i.e the one with the table
+    */
+    background-image: url(il.jpg);
+}
+
+
+/*the below styles are added to all the following elements i.e 
+    table ,table record , table  heading and table data
+    
+    *border radius is explained  in index2.html file for the image
+
+    *border collapse is used  to remove dual indivial border between the table and the content
+    
+    
+*/
+table,tr,th,td{
+    color: beige;
+    border: 2px solid rgb(9, 247, 128);/* border can also be initialised in this way first 
+        border : than width <space> border style <space> border colour
+        in place of  <space> just leave blank space*/
+    
+    border-radius: 2px;
+    border-collapse: collapse;
+    
+    
+    
+
+
+}
+tr,th,td{
+    padding: 30px; /* padding is the internal space/ between text inside table and the outer cell border
+        i.e 
+        |<--->text<--->|  
+        
+        and
+        ________
+         ⬆
+         |
+         |
+         ⬇
+        "text"
+         ⬆
+         |
+         |
+         ⬇______        
+        
+        the 2 arrows represent space between the vertical lines and text is the being added by using padding */
+    
+    
+    
+        border-radius: 5px; 
+
+}
+img{
+    
+    width: 300px;/* dimensions of images used in the table of first web page 
+    i.e the picture of abdul kalam inside the table  */
+
+    height: 30%;
+    
+}
+
+
+h1{
+    font-style: italic;/* the  heading missile man of india is seen to be inclined , 
+    its done using font-style: incline*/
+    
+    
+    color: aqua;
+}
+a{
+    padding: 10px; /*There is space between text and the pink border , its because of addition of  padding/*
+    margin-top: 15px;/* when space has to be added between the current element and the element above current element only*/ 
+    background-color: rgb(8, 166, 228);
+    border-style: solid;/* style of border like dotted,dashed,solid etc*/
+    border-color: rgba(221, 0, 255, 0.74);
+    border-width: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    font-style: italic;
+    border-radius: 10px;
+    
+}
+
+/* ⬇️ this is  pseudo class declaration
+    it takes 2 values hover and focus 
+    hover acticates the style when cursor comes in contaact to the element 
+    and focus activates the style when the element is clicked upon
+*/
+a:hover{
+    background-color: burlywood;
+}
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- these are comments -->
+
+
+<!-- INDEX.HTML IS THE FILE FOR THE FIRST WEBPAGE , 
+    I.E THE WEBPAGE WITH THE TABLE  -->
+
+<!-- ⬇️head part starts-->
+<head>
+
+    <meta charset="UTF-8"><!--default values you get after creating html file-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--default values you get after creating html file-->
+    
+    <link rel="stylesheet" href="style.css"><!-- ⬅️ linking external style sheet , CSS FILE NAME=> style.css -->
+    
+    <title>Document</title><!--title is text present in the tab at the top -->
+    
+    <!--Below ⬇️ linking style sheet , this type of linking is called DOCUMENT LEVEL STYLE SHEET 
+    cause its specified in head -->
+
+    <!--Below ⬇️ th(table heading) and td(table data) are called  
+    element selectors , font family is used to apply font style i.e fantasy
+    the styling is applied to the table headings and table contents -->
+    <style>
+        th,td{
+            font-family: cursive;}
+    </style>
+
+</head>
+<!-- ⬆️head part ends here-->
+
+
+<!-- ⬇️body part starts-->
+<body>
+    <!-- ⬇️below style is being added inside h1 tag, its called inline level css-->
+    
+    <h1 style="text-align: center;">Missile man of India</h1><!-- ⬅️ h1,h2,h3..h6 size of head decreases are number increases-->
+    
+
+    <!-- ⬇️below div class is used with id="tabla" , so a common style can be added to all elemets inside
+        it  by calling ⬇️ it once in external style sheet.
+
+        #tabla{
+                style to be applied;
+        }
+    -->
+
+    
+    
+    
+        <!--⬇️table creation -->
+    
+        <table class="tablee">
+        <!-- ⬇️<tr> is table record as in html data is inserted in table in row wise fashion -->
+            <tr>
+            <!-- ⬇️ th stands for table heading , the first record or row is nothing but the columns . 
+            SO USE TH WHILE INSERTING THE FIRST RECORD INTO THE TABLE-->
+            <th>DAY</th>
+            <th>TIME</th>
+            <th>EVENT NAME</th>
+            <th>EVENT NAME 2</th>
+            <th>LOCATION</th>
+            <th>SPEAKER</th>
+            <th>PICTURE</th>
+        </tr>
+        <tr>
+             <!-- ⬇️ <td> stands for table data , data to be inserted following the first 
+                record (td) is to be added using the <td> tag-->
+            <td>Monday</td>
+            <td>11:00Am</td>
+            <td>About First Indian Rocket</td>
+            <td>About the missile production in India</td>
+            
+            <td>NIE north Auditorium</td>
+            <td>APJ Abdul Kalam</td>
+            
+            <!-- ⬇️ image being inserted into the table cell -->
+            <td><img src="apj1.jpg" alt=""></td>
+           
+            
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>11:00Am</td>
+            <td>About education</td>
+            <td>About indian young future</td>
+            
+            <td>NIE north Auditorium</td>
+            <td>APJ Abdul Kalam</td>
+            <!-- ⬇️ image being inserted into the table cell -->
+            <td><img src="apj1.jpg" alt=""></td>
+            
+        </tr>
+     
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <!-- <a> ⬇️ tag or anchor tag is used to  link another html file or any other website or any link
+         Here index2.html is being linked , you can also link www.youtube.com .etc  . The text you type is whats shown  in html file,
+        like here ⬇️ "CLICK HERE TO KNOW MORE ABT THE MR APJ ABDUL KALAM" -->
+    <div><a href="index2.html">CLICK HERE TO KNOW MORE ABT THE MR APJ ABDUL KALAM</a></div>
+        
+    
+    
+   
+
+
+</body>
+</html>
